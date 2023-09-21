@@ -1,0 +1,77 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F7F7F7;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #333;
+    color: #FFF;
+    padding: 10px;
+    text-align: center; /* Centrar el contenido horizontalmente */
+}
+
+nav h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+section.content {
+    margin: 20px;
+    display: flex; /* Utilizar flexbox para centrar el contenido verticalmente */
+    flex-direction: column; /* Alinear el contenido en una columna */
+    align-items: center; /* Centrar el contenido verticalmente */
+    text-align: center; /* Centrar el contenido horizontalmente */
+}
+
+.flash {
+    background-color: #FFCC00;
+    color: #333;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+ul.todo-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Alinear el contenido de la lista de tareas a la izquierda */
+    max-width: 400px; /* Limitar el ancho máximo de la lista de tareas */
+    margin: 0 auto; /* Centrar la lista de tareas horizontalmente */
+}
+
+ul.todo-list li {
+    border-bottom: 1px solid #DDD;
+    padding: 10px 0;
+}
+
+ul.todo-list li:last-child {
+    border-bottom: none;
+}
+
+ul.todo-list li .task {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+
+
+/* Agrega aquí tus estilos adicionales para el contenido de la lista de tareas */
